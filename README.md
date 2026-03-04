@@ -1,4 +1,16 @@
-# Como criar um workflow no GitHub Actions
+# Workflow no GitHub Actions
+
+O objetivo de criar um workflow no GitHub Actions é automatizar tarefas do seu projeto sempre que algum evento acontecer (push, pull request, schedule, release, etc).
+
+Em outras palavras:
+
+> ⚙️ Você ensina o GitHub a trabalhar automaticamente para você.
+
+Evita o clássico:
+
+> “Na minha máquina funciona 🤡”
+
+## Como criar ???
 
 Aqui está um exemplo simples de como criar um **workflow básico no GitHub Actions** para rodar um script Python com:
 
@@ -95,5 +107,29 @@ jobs:
 ```
 Hello World !!!
 ```
+
+---
+
+## 🧠 Resumindo
+
+Criar um workflow serve para:
+
+| Sem GitHub Actions       | Com GitHub Actions         |
+| ------------------------ | -------------------------- |
+| Fazer tudo manualmente   | Automático                 |
+| Esquecer de rodar testes | Testes sempre rodam        |
+| Deploy manual            | Deploy automático          |
+| Erros em produção        | Problemas detectados antes |
+
+---
+
+## Mesmo sendo simples, aprendemos:
+
+* Como configurar ambiente
+* Como rodar script automaticamente
+* Como agendar execução
+* Como integrar com eventos do repositório
+
+Isso já é a base de CI/CD.
 
 ---
